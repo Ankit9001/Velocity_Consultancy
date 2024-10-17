@@ -1,0 +1,44 @@
+INFO 2024-10-17 09:35:34,899 middleware Current URL: token_obtain_pair
+INFO 2024-10-17 09:35:35,282 basehttp "POST /api/token/ HTTP/1.1" 200 483
+INFO 2024-10-17 09:36:00,933 middleware Current URL: employee_list_create
+INFO 2024-10-17 09:36:00,933 middleware Inside JWT authentication in middleware
+INFO 2024-10-17 09:36:00,949 basehttp "GET /api/employees/ HTTP/1.1" 200 896
+INFO 2024-10-17 09:36:29,083 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Initialized JWTMiddleware
+INFO Current URL: employee_detail
+INFO Inside JWT authentication in middleware
+ERROR Authentication failed: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid or expired', code='token_not_valid')}]}
+WARNING Forbidden: /api/employees/3
+WARNING "GET /api/employees/3 HTTP/1.1" 403 39
+INFO Current URL: employee_detail
+INFO Inside JWT authentication in middleware
+INFO "GET /api/employees/3 HTTP/1.1" 200 131
+INFO D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\settings.py changed, reloading.
+INFO 2024-10-17 09:43:05,060 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:43:05,165 middleware Initialized JWTMiddleware
+WARNING 2024-10-17 09:44:57,688 log Not Found: /api/login/
+WARNING 2024-10-17 09:44:57,688 basehttp "POST /api/login/ HTTP/1.1" 404 3491
+INFO 2024-10-17 09:45:09,921 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\urls.py changed, reloading.
+INFO 2024-10-17 09:45:10,278 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:45:10,380 middleware Initialized JWTMiddleware
+INFO 2024-10-17 09:45:11,496 middleware Current URL: login
+INFO 2024-10-17 09:45:11,847 basehttp "POST /api/login/ HTTP/1.1" 200 483
+INFO 2024-10-17 09:45:32,260 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\urls.py changed, reloading.
+INFO 2024-10-17 09:45:32,610 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:45:32,709 middleware Initialized JWTMiddleware
+INFO 2024-10-17 09:45:53,425 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\urls.py changed, reloading.
+INFO 2024-10-17 09:45:53,799 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:45:53,882 middleware Initialized JWTMiddleware
+INFO 2024-10-17 09:46:19,757 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\urls.py changed, reloading.
+INFO 2024-10-17 09:46:20,076 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:46:20,179 middleware Initialized JWTMiddleware
+INFO 2024-10-17 09:48:09,298 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\app\views.py changed, reloading.
+INFO 2024-10-17 09:48:09,691 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:48:09,793 middleware Initialized JWTMiddleware
+INFO 2024-10-17 09:49:23,984 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\settings.py changed, reloading.
+INFO 2024-10-17 09:49:24,339 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:49:24,430 middleware Initialized JWTMiddleware
+INFO 2024-10-17 09:50:22,141 autoreload D:\Ankit\Assignment_velocity_consultancy\employee_record\employee_record\settings.py changed, reloading.
+INFO 2024-10-17 09:50:22,505 autoreload Watching for file changes with StatReloader
+INFO 2024-10-17 09:50:22,596 middleware Initialized JWTMiddleware
