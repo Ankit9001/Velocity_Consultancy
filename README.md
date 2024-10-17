@@ -41,7 +41,7 @@ We must include the access token in the `Authorization` header with the **Bearer
         "salary": "100000.00",
         "email": "abhi@example.com",
         "phone_number": {
-            "number": "123321321"
+            "number": "9969448531"
         }
   }
   ```
