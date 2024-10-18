@@ -15,7 +15,7 @@ class JWTMiddleware:
         current_url_name = resolve(request.path_info).url_name
         logger.info('Current URL: %s', current_url_name)
 
-        skip_auth_urls = ['register', 'login', 'token_obtain_pair', 'token_refresh']
+        skip_auth_urls = ['register', 'login', 'token_obtain_pair', 'token_refresh','custom_token_refresh']
         
         if current_url_name not in skip_auth_urls:
             jwt_authenticator = JWTAuthentication()
